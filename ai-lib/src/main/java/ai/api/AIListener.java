@@ -7,7 +7,6 @@ import ai.api.model.AIResponse;
  * Listener interface for working with API.AI service. Create implementation of it and use with {@link AIService AIService}
  */
 public interface AIListener {
-
     /**
      * Event fires when entire process finished successfully, and returns result object
      *
